@@ -1,0 +1,36 @@
+.card {
+    border: none;
+    &__img--top {
+        max-width: 100%;
+        border-radius: calc(0.25rem - 2px);
+        margin-bottom: 2px;
+    }
+    &__title {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        font-weight: 600;
+        color: $dark;
+        // font: 600 20px/30px SF Pro Text;
+    }
+    &__text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 300;
+        color: $dark;
+        &--line {
+            text-decoration: line-through;
+            color: $secondary;
+        }
+    }
+    &__link {
+        display: inline-block;
+        color: $primary;
+    }
+}
+
+@media (min-width:768px) {
+    .card__title {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+}

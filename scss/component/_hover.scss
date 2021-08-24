@@ -1,0 +1,27 @@
+a.hover__bg--light:hover {
+    background-color: #ffffff4d;
+}
+
+a.hover__bg--dark {
+    color: #000;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+a.hover__opacity:hover {
+    opacity: 0.6;
+}
+
+a.hover__transform:hover {
+    transform: translateY(-10px);
+}
+
+a.hover__filter--brightness:hover {
+    filter: brightness(70%);
+}
+
+a[href$=".html"] {
+    transition: all 0.5s;
+}

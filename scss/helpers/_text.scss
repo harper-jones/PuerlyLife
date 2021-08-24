@@ -1,0 +1,51 @@
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.text-2xl {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.text-3xl {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.text-4xl {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+}
+
+@media (min-width:768px) {
+    .text-md-xl {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .text-md-2xl {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+    .text-md-3xl {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .text-md-4xl {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+    }
+}

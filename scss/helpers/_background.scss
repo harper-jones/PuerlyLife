@@ -1,0 +1,50 @@
+// logo
+.bg-logo {
+    background: url(../img/purelylife.png) no-repeat;
+    background-size: contain;
+}
+
+.bg-logow {
+    background: url(../img/purelylifew.png) no-repeat;
+    background-size: contain;
+}
+
+// product
+.bg-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-frame .bg-img::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% - calc(125 / 345 * 100%));
+}
+
+@media (min-width:768px) {
+    .img-frame .bg-img::before {
+        padding-bottom: 100%;
+    }
+}
+
+// banner
+.banner {
+    background: url(../img/banner.jpg) center center no-repeat;
+    min-height: 480px;
+    background-size: cover;
+}
+
+@media (min-width:576px) {
+    .banner {
+        min-height: 870px;
+    }
+}
+
+// suscribe
+.suscribe {
+    background: url(../img/index10.jpg) center center no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+}

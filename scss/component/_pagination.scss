@@ -1,0 +1,15 @@
+.pagination {
+    justify-content: center;
+    .page__link {
+        padding: 0.5rem 0.75rem;
+        display: block;
+        color: $dark;
+        &:hover {
+            color: $primary;
+        }
+        &--active {
+            text-decoration: underline;
+            color: $primary;
+        }
+    }
+}
