@@ -15304,7 +15304,6 @@ a.text-dark:hover, a.text-dark:focus {
   background: url(../img/index10.jpg) center center no-repeat;
   height: 600px;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
